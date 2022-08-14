@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 import "aos/dist/aos.css";
 import "./css/style.css";
@@ -7,9 +7,6 @@ import "./css/style.css";
 import AOS from "aos";
 
 import Home from "./pages/Home";
-import SignIn from "./pages/SignIn";
-import SignUp from "./pages/SignUp";
-import ResetPassword from "./pages/ResetPassword";
 
 function App() {
   const location = useLocation();

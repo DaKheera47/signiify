@@ -9,6 +9,7 @@ import Newsletter from "../partials/Newsletter";
 import Footer from "../partials/Footer";
 import FreeReview from "../partials/FreeReview";
 import InterviewHints from "../partials/InterviewHints";
+import Statistics from "../partials/Statistics";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
         {/* <FeaturesBlocks />
         <Testimonials />
         <Newsletter /> */}
+        <Statistics />
         <InterviewHints />
         <FreeReview />
       </main>

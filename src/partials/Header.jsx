@@ -58,22 +58,24 @@ function Header() {
           {/* Site navigation */}
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
-              <li>
-                <a
-                  href="#whatsigniifydoes"
-                  className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  What does Signiify do?
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#facetheinterview"
-                  className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Face the Interview
-                </a>
-              </li>
+              <div className="hidden md:flex">
+                <li>
+                  <a
+                    href="#whatsigniifydoes"
+                    className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  >
+                    What does Signiify do?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#facetheinterview"
+                    className="hover:underline underline-offset-4 font-medium text-gray-600 hover:text-gray-900 px-2 sm:px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Face the Interview
+                  </a>
+                </li>
+              </div>
               <li>
                 <a
                   href="https://forms.gle/UJDtkpJjDDkYQMK38"

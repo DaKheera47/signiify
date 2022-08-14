@@ -4,12 +4,12 @@ export default function FreeReview() {
   return (
     <div
       data-aos="fade-up"
-      class="py-12 my-24 w-full text-center bg-white rounded-lg border shadow-md sm:p-8"
+      class="py-12 mt-24 w-full text-center bg-white rounded-lg border shadow-md sm:p-8"
     >
       <h5 class="mb-2 text-3xl font-bold text-gray-900">
         Get your Résumé Reviewed
       </h5>
-      <p class="mb-5 text-base text-gray-500 sm:text-lg w-3/5 text-center mx-auto">
+      <p class="mb-5 text-base text-gray-500 sm:text-lg w-4/5 text-justify md:w-3/5 mx-auto">
         You send us your existing resume and we will review it and send you 3-5
         recommendations on how to improve it to make a better document.
       </p>
@@ -19,7 +19,7 @@ export default function FreeReview() {
           target="_blank"
           rel="noreferrer"
           href="https://forms.gle/UJDtkpJjDDkYQMK38"
-          class="btn capitalize text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+          class="btn capitalize text-white bg-blue-600 hover:bg-blue-700 w-4/5 md:w-full max-w-xl mb-4 sm:w-auto sm:mb-0"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
